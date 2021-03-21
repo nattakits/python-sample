@@ -28,7 +28,6 @@ class get_mathcal(Resource):
         else:
             oper='-'
         stringcal=inp1+' '+oper+' '+inp2
-        print(stringcal)
         answ = eval(stringcal)
         result={}
         result['stringcal']=stringcal
